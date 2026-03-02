@@ -22,7 +22,7 @@ const FeaturedCard = ({ product, index }) => {
           alt={product.name}
           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-106"
           style={{ transformOrigin: "center" }}
-          loading="lazy"
+          
         />
 
         {/* Dark gradient bottom */}
