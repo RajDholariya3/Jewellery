@@ -59,22 +59,22 @@ const CategoryBanners = () => {
     {
       label: "Rings",
       sub: "From solitaires to stacks",
-      img: "public/jew1.jpg",
+      img: "/jew1.jpg",
     },
     {
       label: "Necklaces",
       sub: "Pendants, chains & layering",
-      img: "public/jew2.jpg",
+      img: "/jew2.jpg",
     },
     {
       label: "Earrings",
       sub: "Studs, drops & ear cuffs",
-      img: "public/jew3.jpg",
+      img: "/jew3.jpg",
     },
     {
       label: "Bracelets",
       sub: "Bangles, tennis & cuffs",
-      img: "public/jew4.jpg",
+      img: "/jew4.jpg",
     },
   ];
 
@@ -158,7 +158,7 @@ const Home = () => {
         {/* BG image */}
         <div className="absolute inset-0">
           <img
-            src="public\home.jpg"
+            src="/home.jpg"
             alt="Luxury jewellery hero"
             className="w-full h-full object-cover"
           />
